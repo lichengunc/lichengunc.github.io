@@ -1,0 +1,778 @@
+
+<html>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-64559429-2', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	<head>
+		<title>
+			Licheng Yu - UNC Computer Vision
+		</title>
+        <link rel="icon" type="image/jpg" href="licheng.jpg" />
+
+		<style>
+			body {
+				background-color: #eee;
+			}
+			.main {
+				width : 900px;
+				margin : 20px auto;
+				border-radius: 15px;
+				background-color : #fff;
+				padding : 50px;
+				box-shadow: 0px 0px 10px #999;
+                font-family: "Helvetica";>
+			}
+			.intro {
+				display: block;
+				line-height: 140%;
+			}
+			a {
+				color: #0050e7;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration : underline;
+			}
+			a:visited { 
+				color : #0050e7;
+			}
+			img.me {
+                margin-left: 5px;
+				margin-right : 25px;
+				border : 0 solid black;
+				float : left;
+				margin-bottom : 0;
+				height: 230px;
+			}
+			div.projects {
+				margin-top: 40px;
+			}
+            div.news {
+                margin-top: 40px;
+            }
+            div.scroll_news {
+                height: 300px;
+                width : 750px;
+                overflow-y: scroll;
+            }
+            div.work {
+                margin-top: 40px;
+            }
+			.project-thumb {
+				width: 277px;
+			}
+			.projects-table {
+				margin-top: 20px;
+			}
+			.description-column {
+				padding-left: 60px;
+				width: 4500px;
+			}
+			.project-title {
+				font-size: 16px;
+				font-weight:bold;
+				padding-bottom: 5px;
+			}
+			.description {
+				text-align:justify;
+				text-justify:inter-word;
+				padding-bottom: 5px;
+				font-size: 14px;
+			}
+            .work-column {
+                padding-top:5px;
+                padding-top:5px;
+            }
+			.thumb-column {
+				padding-top:10px;
+				padding-bottom:10px;
+			}
+            table.pub_table tr {
+                outline: thin dotted #666666;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="intro">
+				<h1><span class="name">Licheng Yu</span></h1>
+				<img class="me" src="licheng.jpg">
+                <p>My name is Licheng Yu (虞立成). I completed my PhD in Computer Science from University of North Carolina at Chapel Hill in 2019 May.
+                My advisor is <a target="_blank" href="http://tamaraberg.com">Tamara L. Berg</a>. I also work closely with <a target="_blank" href="http://www.cs.unc.edu/~mbansal/">Mohit Bansal</a> during my PhD study. My research interest lies in computer vision and natural language processing.</p>
+                <p> I completed my Master's degrees from both Georgia Tech and Shanghai Jiaotong University in 2014. I received my Bachelor's degree from Shanghai Jiao Tong University. </p>
+
+                <p>
+				Email: licheng [at] cs.unc.edu <br>
+                Office: 201 S. Columbia St., Rm-257, UNC-Chapel Hill, NC 27599-3175 <br>
+                More info: [<a target="_blank" href="resume.pdf">Resume</a>], [<a target="_blank" href="https://scholar.google.com/citations?user=UYsN0OAAAAAJ&hl=en">Google Scholar</a>], [<a target="_blank" href="https://www.linkedin.com/in/licheng-yu-8aa7a8a1/">LinkedIn</a>], [<a target="_blank" href="https://github.com/lichengunc">GitHub</a>].<br>
+                </p>
+			</div>
+            
+            <div class="news">
+                <h3>Updates</h3>
+                <div class="scroll_news">
+                <ul>
+                    <li>2020.04: 1 paper accepted by ACL 2020.</li>
+                    <li>2020.03: 2 papers accepted by CVPR 2020.</li>
+                    <li>2020.01: <a target="_blank" href="https://tvr.cs.unc.edu/">TVR dataset</a> for Large-Scale Multi-Modal TV Retrieval and Captioning released. </li>
+                    <li>2019.02: 1 paper accepted by CVPR 2019. Perhaps the LAST paper in my PhD study :-) </li>
+                    <li>2019.02: 1 paper accepted by NAACL 2019. </li>
+                    <li>2018.08: 1 paper accepted by EMNLP 2018 - super cool <a target="_blank" href="http://tvqa.cs.unc.edu/">TVQA dataset</a>.</li>
+                    <li>2018.02: <a target="_blank" href="http://vision2.cs.unc.edu/refer/comprehension" style="color:red">Referring Expression Demo</a> online now (in CVPR2018).</li>
+                    <!-- <li>Summer intern at Adobe Research. (May, 2017)</li> -->
+                    <li>2017.07: 1 paper accepted by EMNLP 2017.</li>
+                    <!-- <li>Congrats! UNC won NCAA Championship 2017!</li> -->
+                    <li>2017.03: 1 paper accepted by CVPR 2017 <a target="_blank" style="color:red" href="https://www.youtube.com/watch?v=TuamOA-kF-8&list=PL_bDvITUYucBrD_1rwS_fslAsLVudcvua&index=8">(spotlight presentation 8.0%)</a>. Talk is <a target="_blank" href="https://www.youtube.com/watch?v=TuamOA-kF-8&list=PL_bDvITUYucBrD_1rwS_fslAsLVudcvua&index=8">here</a>.</li>
+                    <li>2016.07: 1 paper accepted by ECCV 2016 <a target="_blank" style="color:red" href="http://videolectures.net/eccv2016_yu_modeling_context/?q=licheng%20yu">(spotlight presentation 4.7%)</a>. Talk is <a target="_blank" href="http://videolectures.net/eccv2016_yu_modeling_context/?q=licheng%20yu">here</a>. </li>
+                    <li>2016.04: RefCOCO and RefCOCO+ dataset released: <a target="_blank" href="https://github.com/lichengunc/refer">Referring Expression Dataset</a></li>
+                    <!-- <li>Summer intern at eBay AI team. (May, 2016)</li> -->
+                    <li>2015.10: 1 paper accepted by ICCV 2015. Many thanks to those helping me. </li>
+                    <li>2015.08: <a target="_blank" href="http://tamaraberg.com/visualmadlibs/">Visual Madlibs dataset</a> released. </li>
+                    <li>2015.01: 1 paper accepted by IEEE Transactions on Image Processing. </li>
+                    <li>2014.11: 1 paper accepted by AAAI 2015.  </li>
+                    <li>as always: <a target="_blank" href="https://aideadlin.es">Academic Countdown</a></li>
+                    <!-- <li>New journey - join UNC <a target="_blank" href="http://bvisionweb1.cs.unc.edu">computer vision group</a>. (Aug, 2014) </li> -->
+                </ul>  
+                </div>
+            </div>
+
+            <div class="work">
+                <h3>Work Experience</h3>
+                <table>
+                   <tr>
+                        <td class="work-column">
+                            <img src="images/facebook_research2.png" width=180>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">2020.03&mdash;future &nbsp&nbsp&nbsp:</p>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">Research Scientist</p>
+                        </td>
+                   </tr>
+                   <tr>
+                        <td class="work-column">
+                            <img src="images/msft.png" width=140>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">2019.07&mdash;2020.03:</p> 
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">Researcher</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><hr></td>
+                        <td>&nbsp &nbsp &nbsp <font color="dimgray">Graduated</font></td>
+                        <td><hr></td>
+                    </tr>
+                    <tr>
+                        <td class="work-column">
+                            <img src="images/working/unc.gif" width=150>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">2014.08&mdash;2019.05:</p>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">Research Assistant</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="work-column" width=190px>
+                            <img src="images/facebook_research2.png" width=180>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">2018.05&mdash;2018.08:</p>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">Research Intern</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="work-column">
+                            <img src="images/working/adobe.png" width=115>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">2017.05&mdash;2017.08:</p>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">Research Intern</p>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td class="work-column">
+                            <img src="images/working/ebay.png" width=150>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">2016.05&mdash;2016.08:</p>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">Research Intern </p>
+                        </td>
+                    </tr>  
+
+                    <tr>
+                        <td class="work-column">
+                            <img src="images/sjtu.png" width=150>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">2011.09&mdash;2014.04:<p>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px">Research Assistant <p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        
+			<div class="projects">
+				<h3>Projects & Publications</h3>
+				<div class="projects-table">
+				<table>
+                <!-- TVQA+ -->
+                <tr>
+                    <td id="tvqa" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/tvqa+.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>TVQA+: Spatio-Temporal Grounding for Video Question Answering</b>
+                        </div>
+                            <a target="_blank" href="https://acl2020.org/">ACL 2020</a>
+                        <div class="description">
+                            Jie Lei, <b>Licheng Yu</b>, Tamara L. Berg, Mohit Bansal<br>
+                        </div>      
+                        <div>
+                            [<a target="_blank" href="https://arxiv.org/pdf/1904.11574.pdf">Paper</a>]
+                            [<a target="_blank" href="http://tvqa.cs.unc.edu/download_tvqa_plus.html">Dataset</a>]
+                        </div>
+                    </div>
+                </tr>
+                <!-- BachGan -->
+                <tr>
+                    <td id="bachgan" class="thumb-column">     
+                        <a href="#"><img class="project-thumb" src="images/bachgan.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>BachGAN: High-Resolution Image Synthesis from Salient Object Layout</b>
+                        </div>
+                            <a target="_blank" href="http://cvpr2020.thecvf.com/">CVPR 2020</a>
+                        <div class="description">
+                            Yandong Li, Yu Cheng, Zhe Gan, <b>Licheng Yu</b>, Liqiang Wang, Jingjing Liu<br>
+                        </div>      
+                        <div>
+                            [<a target="_blank" href="https://arxiv.org/pdf/2003.11690.pdf">Paper</a>]
+                        </div>
+                    </div>
+                </tr>
+                <!-- Violin -->
+                <tr>
+                    <td id="bachgan" class="thumb-column">     
+                        <a href="#"><img class="project-thumb" src="images/cvpr2020_violin.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>VIOLIN: A Large-Scale Dataset for Video-and-Language Inference</b>
+                        </div>
+                            <a target="_blank" href="http://cvpr2020.thecvf.com/">CVPR 2020</a>
+                        <div class="description">
+                            Jingzhou Liu, Wenhu Chen, Yu Cheng, Zhe Gan, <b>Licheng Yu</b>, Yiming Yang, Jingjing Liu<br>
+                        </div>      
+                        <div>
+                            [<a target="_blank" href="https://arxiv.org/pdf/2003.11618v1.pdf">Paper</a>]
+                            [<a target="_blank" href="https://github.com/jimmy646/violin">Dataset</a>]
+                        </div>
+                    </div>
+                </tr>
+                <!-- TVR/TVC -->
+                <tr>
+                    <td id="tvqa" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/tvr_example.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>TVR: A Large-Scale Dataset for Video-Subtitle Moment Retrieval</b>
+                        </div>
+                            <a target="_blank" href="https://arxiv.org/pdf/2001.09099.pdf">arxiv:2001.09009</a>
+                        <div class="description">
+                            Jie Lei, <b>Licheng Yu</b>, Tamara L. Berg, Mohit Bansal<br>
+                        </div>      
+                        <div>
+                            [<a target="_blank" href="https://arxiv.org/pdf/2001.09099.pdf">Paper</a>]
+                            [<a target="_blank" href="https://tvr.cs.unc.edu">Dataset</a>]
+                            [<a target="_blank" href="https://github.com/jayleicn/TVRetrieval">Code (Retrieval)</a>]
+                            [<a target="_blank" href="https://github.com/jayleicn/TVCaption">Code (Captioning)</a>]
+                        </div>
+                    </div>
+                </tr>
+                <!-- UNITER -->
+                <tr>
+                    <td id="tvqa" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/uniter.jpg"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>UNITER: Learning UNiversal Image-Text Representations</b>
+                        </div>
+                            <a target="_blank" href="https://arxiv.org/pdf/1909.11740.pdf">arxiv:1909.11740</a>
+                        <div class="description">
+                            Yen-Chun Chen*, Linjie Li*, <b>Licheng Yu</b>*, Ahmed El Kholy, Faisal Ahmed, Zhe Gan, Yu Cheng, Jingjing Liu <br> (*First 3 authors contribute equally.)
+                        </div>      
+                        <div>
+                            [<a target="_blank" href="https://arxiv.org/pdf/1909.11740.pdf">Paper</a>]
+                            [<a target="_blank" href="https://github.com/lichengunc/pretrain-vl-data">Dataset</a>]
+                            [<a target="_blank" href="https://github.com/ChenRocks/UNITER">Code</a>]
+                        </div>
+                        <div>
+                            Achieving SOTA on 13 Vision+Language Datasets/Tasks, and
+                            <br>
+                            <a target="_blank" href="https://visualcommonsense.com/leaderboard/"><font color="red">Rank 1 on</font> VCR Leaderboard</a>
+                            <br>
+                            <a target="_blank" href="http://lil.nlp.cornell.edu/nlvr/"><font color="red">Rank 1 on</font> NLVR2 Leaderboard</a>
+                        </div>
+                    </div>
+                </tr>
+                <!-- MT-EQA -->
+                <tr>
+                    <td id="mt-eqa" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/cvpr19_mteqa.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Multi-Target Embodied Question Answering</b>
+                        </div>
+                        <a target="_blank" href="http://cvpr2019.thecvf.com/">CVPR 2019</a>
+                        <div class="description">
+                            <b>Licheng Yu</b>, Xinlei Chen, Georgia Gkioxari, Mohit Bansal, Tamara L. Berg, Dhruv Batra<br>
+                        </div>      
+                        <div>
+                            [<a target="_blank" href='https://arxiv.org/abs/1904.04686'>Paper</a>]
+                            [<a target="_blank" href="https://youtu.be/pK5gYk9OgjE">Video</a>]
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </tr>
+                <!-- instr-nav -->
+                <tr>
+                    <td id="mt-eqa" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/naacl19_intro.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Learning to Navigate Unseen Environments: Back Translation with Environmental Dropout</b>
+                        </div>
+                        <a target="_blank" href="https://naacl2019.org/">NAACL 2019</a>
+                        <div class="description">
+                            Hao Tan, <b>Licheng Yu</b>, Mohit Bansal<br>                         
+                        </div>      
+                       <div>
+                            <a target="_blank" href="https://evalai.cloudcv.org/web/challenges/challenge-page/97/overview">Room-to-Room Vision-Language-Navigation Leaderboard <font color="red">Rank 1</font></a>                        
+                        </div>
+                        <div>
+                            [<a target="_blank" href="https://arxiv.org/pdf/1904.04195.pdf">Paper</a>] [<a target="_blank" href="https://github.com/airsplay/R2R-EnvDrop">Code</a>]
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </tr>
+                <!-- TVQA -->
+                <tr>
+                    <td id="tvqa" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/tvqa.jpg"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>TVQA: Localized Compositional Video Question Answering</b>
+                        </div>
+                            <a target="_blank" href="http://emnlp2018.org/">EMNLP 2018</a>
+                        <div class="description">
+                            Jie Lei, <b>Licheng Yu</b>, Mohit Bansal, Tamara L. Berg<br>
+                        </div>      
+                        <div>
+                            [<a target="_blank" href="https://arxiv.org/abs/1809.01696">Paper</a>]
+                            [<a target="_blank" href="http://tvqa.cs.unc.edu/">Project</a>]
+                            [<a target="_blank" href="http://tvqa.cs.unc.edu/explore.html">Explore</a>]
+                            <font color="red">(Oral)</font>
+                        </div>
+                    </div>
+                </tr>
+                <!-- MAttNet -->
+                <tr>
+                    <td id="MAttNet" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/matnet.jpg"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>MAttNet: Modular Attention Network for Referring Expression Comprehension</b>
+                        </div>
+                        <a target="_blank" href="http://cvpr2018.thecvf.com/">CVPR 2018</a>
+                        <div class="description">
+                            <b>Licheng Yu</b>, Zhe Lin, Xiaohui Shen, Jimei Yang, Xin Lu, Mohit Bansal, Tamara L. Berg<br>
+                        </div>      
+                        <div>
+                            [<a target="_blank" href="https://arxiv.org/pdf/1801.08186.pdf">Paper</a>]
+                            [<a target="_blank" href="http://vision2.cs.unc.edu/refer/comprehension"><font color="red">Demo</font></a>]
+                            [<a target="_blank" href="https://github.com/lichengunc/MAttNet">Code</a>]
+                            [<a target="_blank" href="http://vision2.cs.unc.edu/refer/">Project</a>]
+                        </div>
+                    </div>
+                    </td>
+                </tr>
+                <!-- JNLE -->
+                <tr>
+                    <td id="JNLE" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/jnle.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>From Image to Language and Back Again</b>
+                        </div>
+                        <a target="_blank" href="https://www.cambridge.org/core/journals/natural-language-engineering">Journal of Natural Language Engineering</a> (JNLE), 2018
+                        <div class="description">
+                            Anya Belz, Tamara L. Berg, <b>Licheng Yu</b>
+                        </div>
+                        <div>
+                            [<a target="_blank" href="papers/nle2018.pdf">Paper</a>]
+                        </div>
+                    </div>
+                    </td>
+                </tr>
+
+                <!-- Garment Recovery -->
+                <tr>
+                    <td id="Garment Recovery" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/tog.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Physics-Inspired Garment Recovery from a Single-View Image</b>
+                        </div>
+                        <a target="_blank" href="https://tog.acm.org/">ACM Transactions on Graphics</a>, 2018
+                        <div class="description">
+                            Shan Yang, Tanya Ambert, Zherong Pan, Ke Wang, <b>Licheng Yu</b>, Tamara L. Berg, Ming C. Lin<br>
+                        </div>
+                        <div>
+                            [<a target="_blank" href="http://arxiv.org/abs/1608.01250">Paper</a>][<a target="_blank" href="http://www.cs.unc.edu/~alexyang/videos/SIGASIA2016_demo_v2_540_1mq.mp4">Video</a>]
+                        </div>
+                    </div>
+                    </td>  
+                </tr>               
+
+                <!-- Manifold Learning -->
+                <tr>
+                    <td id="Manifold Learning" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/manifold2.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>A Unified Framework for Manifold Landmarking</b>
+                        </div>
+                        <a target="_blank" href="https://ieeexplore.ieee.org/document/8456613">IEEE Transactions on Signal Processing</a>, 2018
+                        <div class="description">
+                            Hongteng Xu, <b>Licheng Yu</b>, Mark Davenport, Hongyuan Zha<br>
+                        </div>      
+                        <div>
+                            [<a target="_blank" href="https://arxiv.org/pdf/1710.09334.pdf">Paper</a>]
+                        </div>
+                    </div>
+                </tr>
+
+                <!-- Album Summarization -->
+                <tr>
+                    <td id="Album summarization" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/emnlp17_model.jpg"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Hierarchically-Attentive RNN for Album Summarization and Storytelling</b>
+                        </div>
+                            <a target="_blank" href="http://emnlp2017.net/">EMNLP 2017</a>
+                        <div class="description">
+                            <b>Licheng Yu</b>, Mohit Bansal, Tamara L. Berg<br>
+                        </div>      
+                        <div>
+                            [<a target="_blank" href="https://arxiv.org/abs/1708.02977">Paper</a>]
+                            [<a target="_blank" href="https://github.com/lichengunc/vist_api">Dataset API</a>]
+                        </div>
+                    </div>
+                </tr>
+                <!-- Speaker and Listener -->
+                <tr>
+                    <td id="Speaker and Listener" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/arxiv17_model.jpg"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>A Joint Speaker-Listener-Reinforcer Model for Referring Expressions</b>
+                        </div>
+                        <a target="_blank" href="http://cvpr2017.thecvf.com/">CVPR 2017</a>
+                        <div class="description">
+                            <b>Licheng Yu</b>, Hao Tan, Mohit Bansal, Tamara L. Berg<br>
+                        </div>      
+                        <div>
+                            [<a target="_blank" href="https://arxiv.org/abs/1612.09542">Paper</a>]
+                            [<a target="_blank" href="https://github.com/lichengunc/speaker_listener_reinforcer">Code</a>]
+                            [<a target="_blank" href="http://bvisionweb1.cs.unc.edu/refer/">Project</a>]
+                            [<font color="red"><a target="_blank" href="https://www.youtube.com/watch?v=TuamOA-kF-8&list=PL_bDvITUYucBrD_1rwS_fslAsLVudcvua&index=8">Talk</a></font>]
+                            <!-- [<a target="_blank" href="https://github.com/lichengunc/visdif_emb_guide2_reinforce">Code</a>] -->
+                            <font color="red">(Spotlight presentation 8%)</font>
+                        </div>
+
+                    </div>
+                </tr>
+
+                <!-- Refer-it expression -->
+                <tr>
+                    <td id="Refer Expression" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/eccv16.jpg"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Modeling Context in Referring Expressions</b>
+                        </div>
+                        <a target="_blank" href="http://www.eccv2016.org/">ECCV 2016</a><br>
+                        <div class="description">
+                            <b>Licheng Yu</b>, Patrick Poirson, Shan Yang, Alexander C. Berg, Tamara L. Berg<br>
+                        </div>
+                        <div>
+                            [<a target="_blank" href="http://arxiv.org/abs/1608.00272">Paper</a>]
+                            [<a target="_blank" href="https://github.com/lichengunc/refer">Dataset</a>]
+<!--                             [<a target="_blank" href="http://videolectures.net/eccv2016_yu_modeling_context/?q=licheng%20yu">Talk</a>][<a target="_blank" href="http://referitgame.com/">Online Game</a>] -->
+                            [<a target="_blank" href="http://videolectures.net/eccv2016_yu_modeling_context/?q=licheng%20yu">Talk</a>]
+                            <font color="red">(Spotlight presentation 4.7%)</font>
+                      </div>
+                    </div>
+                    </td>
+                </tr> 
+
+                <!-- Visual Madlibs -->
+                <tr>
+                    <td id="Visual Madlibs" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/iccv15_madlibs2.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Visual Madlibs: Fill-in-the-blank Image Description and Question Answering</b>
+                        </div>
+                        <a target="_blank" href="http://pamitc.org/iccv15/">ICCV 2015</a>
+                        <div class="description">
+                            <b>Licheng Yu</b>, Eunbyung Park, Alexander C. Berg, Tamara L. Berg<br>
+                        </div>
+                        <div>
+                            [<a target="_blank"  href="papers/iccv15_madlibs.pdf">Paper</a>][<a target="_blank" href="http://tamaraberg.com/visualmadlibs/">Project</a>][<a target="_blank" href="images/iccv15_madlibs.mp4">Spotlight Video</a>][<a target="_blank" href="papers/iccv15_madlibs_supp.pdf">Supplementary File</a>]
+                        </div>
+                    </div>
+                    </td>
+                </tr> 
+
+                <!-- Dictionary learning -->
+                <tr>
+                    <td id="Dictionary learning" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/aaai15_dictionary.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Dictionary Learning with Mutually Reinforcing Group-Graph Structures</b>
+                        </div>
+                        <a target="_blank" href="http://www.aaai.org/Conferences/AAAI/aaai15.php">AAAI 2015</a>
+                        <div class="description">
+                            <b>Licheng Yu</b>*, Hongteng Xu*, Hongyuan Zha, Yi Xu<br> (* denotes equal contribution)
+                        </div>
+                        <div>
+                            [<a target="_blank" href="papers/aaai15_dl.pdf">Paper</a>]
+                        </div>
+                    </div>
+                    </td>
+                </tr> 
+
+                <!-- vector sparse representation -->
+                <tr>
+                    <td id="Quaternion sparse representation" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/icme13_kqsvd2.jpg"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Vector Sparse Representation of Color Image Using Quaternion Matrix Analysis</b>
+                        </div>
+                        IEEE Transactions on Image Processing, <a target="_blank" href="http://www.signalprocessingsociety.org/publications/periodicals/image-processing/">TIP 2015</a>
+                        <div class="description">
+                            Yi Xu, <b>Licheng Yu</b>, Hongteng Xu, Truong Nguyen, Hao Zhang<br>
+                        </div>
+                        <div>
+                            [<a target="_blank" href="papers/tip15_kqsvd.pdf">Paper</a>][<a target="_blank" href="code/Quaternion%20Dictionary%20Learning.zip">Code</a>]
+                        </div>
+                    </div>
+                    </td>
+                </tr>
+                    
+                <!-- quaternion sparse representation -->
+                <tr>
+                    <td id="Quaternion sparse representation" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/tip15_dictionary.jpg"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Quaternion-based Sparse Representation of Color Image</b>
+                        </div>
+                        IEEE International Conference on Multimedia and Expo, <a target="_blank" href="http://www.icme2013.org/">ICME 2013</a>
+                        <div class="description">
+                            <b>Licheng Yu</b>, Yi Xu, Hongteng Xu, Hao Zhang<br>
+                        </div>
+                        <div>
+                                [<a target="_blank" href="papers/icme13_kqsvd.pdf">Paper</a>][<a target="_blank" href="papers/icme13_kqsvd_supp.pdf">Supplementary File</a>]<font color="red"> (Oral presentation)</font>
+                            </div>
+                        </div>
+                        </td>
+                    </tr> 
+
+                    <!-- Image super-resolution (VCIP13) -->
+                    <tr>
+                    <td id="Super Resolution" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/vcip13_SR.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Single Image Super-resolution via Phase Congruency Analysis</b>
+                        </div>
+                        IEEE Visual Communications and Image Processing, VCIP 2013
+                        <div class="description">
+                            <b>Licheng Yu</b>, Yi Xu, Bo Zhang<br>
+                        </div>
+                        <div>
+                            [<a target="_blank" href="papers/vcip13_SR.pdf">Paper</a>]<font color="red"> (Oral presentation)</font>
+                        </div>
+                    </div>
+                    </td>
+                </tr>
+                    
+                <!-- Image super-resolution (ICME13_workshop) -->
+                <tr>
+                    <td id="Super Resolution" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/icme13_workshop.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Self-Example Based Super-resolution with Fractal-based Gradient Enhancement</b>
+                        </div>
+                        IEEE International Conference on Multimedia and Expo, <a target="_blank" href="http://www.icme2013.org/">ICME workshop 2013</a>
+                        <div class="description">
+                            <b>Licheng Yu</b>, Yi Xu, Hongteng Xu<br>
+                        </div>
+                        <div>
+                            [<a target="_blank" href="papers/icme13_workshop.pdf">Paper</a>]<i><font color="red"></font></i>
+                        </div>
+                    </div>
+                    </td>
+                </tr>
+                    
+                <!-- Image super-resolution (apsipa12) -->
+                <tr>
+                    <td id="Super Resolution" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/apsipa12_result.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Robust Single Image Super-resolution based on Gradient Enhancement</b>
+                        </div>
+                        APSIPA Annual Summit and Conference, <a target="_blank" href="http://www.apsipa2012.org/">APSIPA 2012</a>
+                        <div class="description">
+                            <b>Licheng Yu</b>, Yi Xu, Hongteng Xu, Xiaokang Yang<br>
+                        </div>
+                        <div>
+                            [<a target="_blank" href="papers/apsipa12_SR.pdf">Paper</a>][<a target="_blank"  href="images/sea_contrast_cs1.mp4">Sample Video</a>]
+                        </div>
+                    </div>
+                    </td>
+                </tr> 
+                </table>
+            </div>
+			<div class="Miscellaneous">
+				<h3>Miscellaneous</h3>
+				<div class="projects-table">
+				<table>
+                <!-- Gobang -->
+                <tr>
+                    <td id="Gobang" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/gobang.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Gobang Android App (AI mode + 2-player mode)</b> 
+                        </div>
+                        <div class="description">
+                            <b>Licheng Yu</b><br>
+                        </div>
+                        <div>
+                            [<a target="_blank" href="papers/gobang_report.pdf">Technical Report</a>][<a target="_blank" href="https://youtu.be/l_NZmUsICbo">Demo</a>]
+                        </div>
+                    </td>
+                </tr>
+                <!-- Egocentric Vision -->
+                <tr>
+                    <td id="Egocentric Vision" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="images/gt13_egovision.jpg"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Skill Measurement via Egocentric Vision in Wetlab</b>
+                        </div>
+                        <div class="description">
+                            <b>Licheng Yu</b>, Yin Li, James Rehg<br>
+                        </div>
+                        <div>
+                            [<a target="_blank" href="papers/wetlab.pdf">Technical Report</a>]
+                        </div>
+                    </div>
+                    </td>
+                </tr> 
+				</table>
+				</div>
+				</div>
+			</div>
+
+            <br/> 
+            <br/> 
+            <div>
+                <b>PhD Thesis:</b> 
+                "Question Answering, Grounding, and Generation for Vision and Language"
+                [<a target="_blank" href="papers/thesis2.pdf">PDF</a>][<a target="_blank" href="https://youtu.be/3l2Gsasqfvg">Talk</a>]
+            </div>
+
+		</div>
+
+        
+	</body>
+</html>
