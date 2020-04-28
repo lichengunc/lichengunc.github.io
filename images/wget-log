@@ -1,0 +1,11 @@
+--2020-03-28 03:23:30--  https://www.google.com/url?sa=i
+Resolving www.google.com (www.google.com)... 172.217.7.164, 2607:f8b0:4004:804::2004
+Connecting to www.google.com (www.google.com)|172.217.7.164|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘url?sa=i’
+
+url?sa=i                                             [<=>                                                                                                      ]       0  --.-KB/s               url?sa=i                                             [ <=>                                                                                                     ]   1.37K  --.-KB/s    in 0s      
+
+2020-03-28 03:23:30 (27.3 MB/s) - ‘url?sa=i’ saved [1401]
+
